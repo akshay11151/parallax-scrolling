@@ -1,0 +1,16 @@
+{
+    "name": "parallax-scrolling",
+    "version": "1.0.0",
+    "description": "demo project.",
+    "scripts": {
+        "lite": "lite-server --port 10001",
+        "start": "npm run lite",
+    "build:dev": "webpack --display-error-details --config webpack.config.js --progress --color",
+    "build:prod": "webpack --env.prod --config webpack.config.js --progress --color"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "2.3"
+    }
+}
